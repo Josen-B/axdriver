@@ -45,4 +45,4 @@ driver_pci = { git = "https://github.com/Starry-OS/driver_pci.git", optional = t
 driver_virtio = { git = "https://github.com/Starry-OS/driver_virtio.git", optional = true }
 axalloc = { git = "https://github.com/Starry-OS/axalloc.git", optional = true }
 axhal = { git = "https://github.com/Starry-OS/axhal.git", optional = true }
-axconfig = { git = "https://github.com/Starry-OS/axconfig.git", optional = true }
+axconfig = { git = "https://github.com/Josen-B/axconfig.git", optional = true }
