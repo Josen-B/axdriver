@@ -62,7 +62,7 @@ cfg_if::cfg_if! {
             fn probe_global() -> Option<AxDeviceEnum> {
                 // TODO: format RAM disk
                 Some(AxDeviceEnum::from_block(
-                    driver_block::ramdisk::RamDisk::new(0x100_0000), // 16 MiB
+                    driver_block::ramdisk::RamDisk::new(0x300_0000), // 48 MiB
                 ))
             }
         }
